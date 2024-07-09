@@ -69,7 +69,7 @@ header{
     background: rgba(13, 19, 33, 0.02);
     padding-top:80px ;
     margin-top: 75px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     
 }
 
@@ -148,5 +148,55 @@ header{
 
 .web-image{
     width: 30%;
+}
+
+/* inspiration-secion style */
+
+.inspiration-secion{
+    width: 1250px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.inspiration-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 909px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.inspiration-content h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.inspiration-content p{
+    color: rgb(13, 19, 33);
+    opacity: .7;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.inspiration-video{
+    margin-top: 70px;
+    width: 1250px;
+    height: 600px;
+    text-align: center;
+}
+.inspiration-video iframe{
+    width: 90%;
+    height: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+    
 }
 
