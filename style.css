@@ -59,3 +59,53 @@ header{
     font-weight: 600;
 }
 
+/* web-dev-section styles */
+
+.web-dev-section{
+    border: 2px solid red;
+    width: 1250px;
+    height: 1000px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding-top:80px ;
+    margin-top: 75px;
+    
+}
+
+.web-dev-section-head{
+    width: 909px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-dev-section-head h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.web-dev-section-head p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .7;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.web-dev-section-details{
+    border: 2px solid red;
+    width: 1050px;
+    height: 360px;
+    margin: 0 auto;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
