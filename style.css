@@ -335,5 +335,32 @@ header{
     font-weight: 600;
 }
 
+/* social-links */
+
+.social-links{
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    width: 1536px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-links h3{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#link-img img{
+
+    margin-left: 40px;
+
+}
+
+
 
 
